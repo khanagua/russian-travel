@@ -1,0 +1,6 @@
+.switch {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+    padding-left: 18px;
+}
