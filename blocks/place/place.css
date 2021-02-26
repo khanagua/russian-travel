@@ -1,0 +1,22 @@
+.place {
+    padding-bottom: 50px;
+}
+
+.place:last-of-type{
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .place {
+        display: grid;
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+        gap: 28px 48px;
+        padding-bottom: 73px;
+    }
+}
+
+@media (min-width: 1024) {
+    .place {
+        padding-bottom: 80px;
+    }
+}
