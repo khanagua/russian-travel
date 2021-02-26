@@ -6,3 +6,10 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+@media (min-width: 768px) {
+    .logo {
+        width: 176px;
+        height: 52px;
+    }
+}

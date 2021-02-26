@@ -1,0 +1,18 @@
+.lead__image {
+    width: 100%;
+    margin: 0 auto 8px;
+}
+
+@media (min-width: 1024px) {
+    .lead__image {
+        width: calc(100% - 96px);
+        margin: 0 48px 8px 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead__image {
+        width: calc(100% - 296px);
+        margin: 0 148px 8px 148px;
+    }
+}
