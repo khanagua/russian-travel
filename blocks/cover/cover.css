@@ -4,12 +4,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1184px;
+    margin: 0 auto;
     padding: 33px 16px;
     text-decoration: none;
     background-image: url(cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
+    box-sizing: border-box;
 }
 
 .cover::after {
