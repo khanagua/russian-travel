@@ -2,5 +2,10 @@
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    line-height: 20px
+    line-height: 20px;
+    transition: opacity 0.3s;
+}
+
+.switch__link:hover {
+    opacity: 0.8;
 }
