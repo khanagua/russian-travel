@@ -1,0 +1,42 @@
+.cover__link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    padding: 33px 16px 33px 16px;
+}
+
+.cover__link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+    z-index: -1;
+}
+
+.cover__link:hover::after {
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .cover__link {
+        padding: 115px 104px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover__link {
+        padding: 195px 232px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover__link {
+        padding: 245px 232px;
+    }
+}

@@ -1,4 +1,4 @@
-.footer__link {
+.nav__link {
     font-size: 24px;
     line-height: 24px;
     color: #fff;
@@ -6,12 +6,12 @@
     transition: opacity 0.3s;
 }
 
-.footer__link:hover {
+.nav__link:hover {
     opacity: 0.8;
 }
 
 @media (min-width: 768px) {
-    .footer__link {
+    .nav__link {
         font-size: 16px;
         line-height: 18px;
     }

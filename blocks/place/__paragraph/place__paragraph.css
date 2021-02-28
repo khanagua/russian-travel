@@ -1,9 +1,26 @@
 .place__paragraph {
-    margin: 0 0 25px 0;
+    margin: 0 16px 25px 16px;
     font-size: 16px;
     line-height: 26px;
 }
 
 .place__paragraph:last-of-type {
     margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .place__paragraph {
+        margin: 0 0 25px 0;
+    }
+
+    .place__paragraph:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__paragraph {
+        font-size: 18px;
+        line-height: 29px;
+    }
 }

@@ -3,10 +3,9 @@
     font-size: 32px;
     line-height: 35px;
     text-align: center;
-    margin: 0 0 16px 0;
+    margin: 0 auto 16px;
     color: #fff;
     max-width: 288px;
-    z-index: 1;
 }
 
 @media (min-width: 768px) {

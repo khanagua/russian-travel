@@ -9,3 +9,10 @@
 .switch__link:hover {
     opacity: 0.8;
 }
+
+@media (min-width: 768px) {
+    .switch__link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
