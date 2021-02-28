@@ -9,9 +9,8 @@
 @media (min-width: 768px) {
     .place {
         display: grid;
-        /* grid-template-columns: minmax(340px, 460px) minmax(352px, 484px); */
-        grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
-        gap: 28px 48px;
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+        gap: 48px 28px;
         padding-bottom: 73px;
     }
 }
